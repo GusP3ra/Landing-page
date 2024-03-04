@@ -61,7 +61,7 @@ li {
     list-style: none;
 }
 
-.barra-branca .primeiro .Home {
+.barra-branca .primeiro {
     margin-left: 75px;
     font-size: 20px;
     font-weight: 600;
@@ -70,11 +70,16 @@ li {
     text-align: left;
 }
 
+.barra-branca .primeiro .Home {
+    color: royalblue;
+    text-decoration: underline;
+}
+
 .barra-branca .ultimo {
     display: flex;
     background: #ffffff;
     gap: 32px;
-    margin-left: 315px;
+    margin-left: 295px;
 }
 
 .caixa-branca {
@@ -88,7 +93,6 @@ li {
     margin-top: 320px;
     margin-left: 100px;
     border-radius: 5px;
-
 }
 
 .caixa-branca .titulo-caixa {
@@ -97,18 +101,18 @@ li {
     margin-left: 40px;
     width: 517px;
     height: 126px;
-    color: purple;
-    font-size: 40px;
-
-
+    color: royalblue;
+    font-size: 48.83px;
 }
 
 .caixa-branca .texto-caixa {
     display: flex;
     background: white;
+    color: gray;
     margin-left: 40px;
     font-size: 20px;
-
+    margin-top: -40px;
+    line-height: 24px;
 }
 
 .caixa-branca .texto-caixa-2 {
@@ -116,6 +120,7 @@ li {
     margin-left: 40px;
     color: black;
     background: white;
+    font-size: 20px;
 }
 
 .imagem_celular {
@@ -123,7 +128,7 @@ li {
 }
 
 .div-grande {
-    display:flex;
+    display: flex;
     flex-direction: row;
 }
 
@@ -133,7 +138,8 @@ li {
 
 .div-grande .caixa-branca .google-play {
     background: white;
-    height: 47px;
-    width: 149px;
-    margin-left: 25px;
+    height: 80px;
+    width: 328px;
+    margin-left: 40px;
+    margin-top: -20px;
 }
