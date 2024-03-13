@@ -47,29 +47,6 @@
     display: flex;
     background: #ffffff;
     gap: 32px;
-}
-
-li a {
-    background: #ffffff;
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    font-family: Josefin Sans;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #232233;
-
-}
-
-li {
-    list-style: none;
-}
-
-.barra-branca .primeiro {
     margin-left: 75px;
     font-size: 20px;
     font-weight: 600;
@@ -87,7 +64,27 @@ li {
     display: flex;
     background: #ffffff;
     gap: 32px;
-    
+
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    background: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #232233;
+
 }
 
 .caixa-branca {
@@ -139,8 +136,9 @@ li {
     top: 10%;
     width: 18%;
     height: 65%;
-    
+
 }
+
 .div-grande {
     display: flex;
     flex-direction: row;
@@ -177,4 +175,40 @@ li {
     background: transparent;
     left: 10%;
     position: absolute;
+}
+
+.quadrado-branco h1 {
+    color: #232233;
+    background: transparent;
+    display: flex;
+    width: 265px;
+    height: 200px;
+    left: 42%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.quadrado-branco h2 {
+    color: gray;
+    background: transparent;
+    display: flex;
+    width: 601px;
+    height: 70px;
+    top: 17%;
+    left: 33%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
 }
