@@ -1,8 +1,11 @@
 * {
     padding: 0;
     box-sizing: border-box;
-    background-size: auto;
-    background: url(https://s3-alpha-sig.figma.com/img/b708/9961/164dd3d96eb61bd7b4822bb8e0953967?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LaUnwu6G1AY2xuyEwkkXvFzhG1dXFyhVleErRnHv4BoUbYpfUP4Gc0rnxFCI4NJ9bEpS1F~rj1J5WLmrkTfwNbfjkq8gFvASZ8BVVvHg2R5hDkIziAO4cRZovfw0trVxFnLyKzaLz2D1wn470GE4wP2h2AmpGJRRTxl1HwXRu0-c2NU2GiD~7h9bb3FzLoDhJrRn-NdkH6cpijFzFDs9oUKDc~gbQW~Bl2YkA99yPC8BLKSN8DvSa0tIQd9DDVX~402S7XK3a8f2hAY73xVcYnVUG6CM9eChnHemXXUsGrK-PNym9a0jk7Kb1gJD3VZO1iOu7uoGjBF8bLc-kaKl1A__);
+    background: url('https://s3-alpha-sig.figma.com/img/b708/9961/164dd3d96eb61bd7b4822bb8e0953967?Expires=1710115200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LaUnwu6G1AY2xuyEwkkXvFzhG1dXFyhVleErRnHv4BoUbYpfUP4Gc0rnxFCI4NJ9bEpS1F~rj1J5WLmrkTfwNbfjkq8gFvASZ8BVVvHg2R5hDkIziAO4cRZovfw0trVxFnLyKzaLz2D1wn470GE4wP2h2AmpGJRRTxl1HwXRu0-c2NU2GiD~7h9bb3FzLoDhJrRn-NdkH6cpijFzFDs9oUKDc~gbQW~Bl2YkA99yPC8BLKSN8DvSa0tIQd9DDVX~402S7XK3a8f2hAY73xVcYnVUG6CM9eChnHemXXUsGrK-PNym9a0jk7Kb1gJD3VZO1iOu7uoGjBF8bLc-kaKl1A__') center center no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     font-family: Josefin Sans;
 }
 
@@ -93,12 +96,11 @@ li a {
     background: #ffffff;
     width: 30%;
     height: 50%;
-    top: 372px;
-    left: 135px;
-    margin-top: 250px;
+    margin-top: -60px;
     margin-left: 100px;
     border-radius: 5px;
     padding: 2%;
+    z-index: 1;
 }
 
 .caixa-branca .titulo-caixa {
@@ -128,6 +130,22 @@ li a {
     color: black;
     background: white;
     font-size: 20px;
+}
+
+.listra-azul {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    width: 30%;
+    height: 90%;
+    left: 85px;
+    margin-top: 250px;
+    margin-left: 100px;
+    border-radius: 5px;
+    padding: 2%;
+    border: 18px solid #7572FF;
+    z-index: 0;
+    position: relative;
 }
 
 .imagem-celular {
@@ -181,7 +199,7 @@ li a {
     color: #232233;
     background: transparent;
     display: flex;
-    width: 265px;
+    width: 15vw;
     height: 200px;
     left: 42%;
     align-items: center;
@@ -199,10 +217,10 @@ li a {
     color: gray;
     background: transparent;
     display: flex;
-    width: 601px;
-    height: 70px;
+    width: 40vw;
+    height: 10vh;
     top: 17%;
-    left: 33%;
+    left: 29%;
     align-items: center;
     justify-content: center;
     position: absolute;
@@ -211,4 +229,97 @@ li a {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
+}
+
+.parte3 {
+    width: 1440px;
+    height: 1710px;
+}
+
+.parte3 h1 {
+    color: white;
+    background: transparent;
+    display: flex;
+    width: 15vw;
+    height: 200px;
+    left: 42%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.parte3 h2 {
+    color: white;
+    background: transparent;
+    display: flex;
+    width: 40vw;
+    height: 45vh;
+    left: 29%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.bloco1 span {
+    display: flex;
+    position: relative;
+    background: transparent;
+    width: 50vw;
+    height: 50vh;
+    top: 316px;
+    left: 30%;
+    color: white;
+    padding: 2%;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.bloco1 h1 {
+    display: flex;
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 12vw;
+    height: 1vh;
+    top: 50%;
+    left: 53.8%;
+    justify-content: center;
+}
+
+.bloco1 h2 {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 297px;
+    height: 7vh;
+    left: 41%;
+}
+
+.parte3 .img-celular2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    width: 50vw;
+    height: 660vh;
+    top: 20%;
+    left: 24%;
+    position: absolute;
 }
