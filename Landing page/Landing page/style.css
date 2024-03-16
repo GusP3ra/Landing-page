@@ -323,3 +323,171 @@ li a {
     left: 24%;
     position: absolute;
 }
+
+.bloco2 span {
+    display: flex;
+    position: absolute;
+    background: transparent;
+    width: 50vw;
+    height: 50vh;
+    top: 312%;
+    left: 40%;
+    color: white;
+    padding: 2%;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.bloco2 h1 {
+    display: flex;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 65vw;
+    height: 25vh;
+    top: 312%;
+    left: 40%;
+    justify-content: center;
+}
+
+.bloco2 h2 {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 68vw;
+    height: 38vh;
+    left: 40%;
+    top: 312%;
+}
+
+.bloco3 span {
+    display: flex;
+    position: absolute;
+    background: transparent;
+    width: 50vw;
+    height: 50vh;
+    top: 372%;
+    left: 40%;
+    color: white;
+    padding: 2%;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.bloco3 h1 {
+    display: flex;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 65vw;
+    height: 25vh;
+    top: 372%;
+    left: 40%;
+    justify-content: center;
+}
+
+.bloco3 h2 {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 66.5vw;
+    height: 38vh;
+    left: 40%;
+    top: 372%;
+}
+
+.bloco4 span {
+    display: flex;
+    position: absolute;
+    background: transparent;
+    width: 50vw;
+    height: 50vh;
+    top: 312%;
+    left: 8%;
+    color: white;
+    padding: 2%;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.bloco4 h1 {
+    display: flex;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 65vw;
+    height: 25vh;
+    top: 312%;
+    left: -6%;
+    justify-content: center;
+}
+
+.bloco4 h2 {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 68vw;
+    height: 38vh;
+    left: -9.8%;
+    top: 312%;
+}
+
+.bloco5 span {
+    display: flex;
+    position: absolute;
+    background: transparent;
+    width: 50vw;
+    height: 50vh;
+    top: 372%;
+    left: 8%;
+    color: white;
+    padding: 2%;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.bloco5 h1 {
+    display: flex;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 65vw;
+    height: 25vh;
+    top: 372%;
+    left: -5%;
+    justify-content: center;
+}
+
+.bloco5 h2 {
+    display: flex;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 66.5vw;
+    height: 38vh;
+    left: -9%;
+    top: 372%;
+}
