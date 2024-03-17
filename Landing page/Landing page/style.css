@@ -149,10 +149,10 @@ li a {
 .imagem-celular {
     position: absolute;
     left: 45%;
-    top: 10%;
+    top: 35.3%;
     width: 18%;
     height: 65%;
-
+    background: transparent;
 }
 
 .div-grande {
@@ -587,4 +587,135 @@ li a {
     left: 58%;
     top: 585%;
     background: transparent;
+}
+
+.parte4 .bloco-roxo {
+    background: rgba(88, 81, 234, 1);
+    width: 170px;
+    height: 186px;
+    top: 625%;
+    left: 8%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+    position: absolute;
+}
+
+.parte4 .bloco-roxo span {
+    color: #ffffff;
+    width: 29.17px;
+    height: 26.25px;
+    top: 15%;
+    left: 36%;
+    position: absolute;
+    font-size: 50px;
+}
+
+.parte4 .bloco-roxo h1 {
+    color: #ffffff;
+    width: 29.17px;
+    height: 26.25px;
+    top: 40%;
+    left: 42%;
+    position: absolute;
+    font-size: 25px;
+}
+
+.parte4 .bloco-roxo h2 {
+    background: transparent;
+    color: #ffffff;
+    width: 29.17px;
+    height: 26.25px;
+    top: 60%;
+    left: 15%;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.parte4 .bloco-roxo2 {
+    background: rgba(88, 81, 234, 1);
+    width: 170px;
+    height: 186px;
+    top: 625%;
+    left: 20%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+    position: absolute;
+}
+
+.parte4 .bloco-roxo2 span {
+    color: #ffffff;
+    width: 29.17px;
+    height: 26.25px;
+    top: 15%;
+    left: 36%;
+    position: absolute;
+    font-size: 50px;
+}
+
+.parte4 .bloco-roxo2 h1 {
+    color: #ffffff;
+    width: 29.17px;
+    height: 26.25px;
+    top: 40%;
+    left: 42%;
+    position: absolute;
+    font-size: 25px;
+}
+
+.parte4 .bloco-roxo2 h2 {
+    background: transparent;
+    color: #ffffff;
+    width: 29.17px;
+    height: 26.25px;
+    top: 60%;
+    left: 37%;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.parte4 .bloco-roxo3 {
+    background: rgba(88, 81, 234, 1);
+    width: 170px;
+    height: 186px;
+    top: 625%;
+    left: 32%;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+    position: absolute;
+}
+
+.parte4 .bloco-roxo3 span {
+    color: #ffffff;
+    width: 29.17px;
+    height: 26.25px;
+    top: 15%;
+    left: 36%;
+    position: absolute;
+    font-size: 50px;
+}
+
+.parte4 .bloco-roxo3 h1 {
+    color: #ffffff;
+    width: 29.17px;
+    height: 26.25px;
+    top: 40%;
+    left: 42%;
+    position: absolute;
+    font-size: 25px;
+}
+
+.parte4 .bloco-roxo3 h2 {
+    background: transparent;
+    color: #ffffff;
+    width: 29.17px;
+    height: 26.25px;
+    top: 60%;
+    left: 27%;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: first baseline;
 }
