@@ -420,16 +420,18 @@ li a {
     top: 295%;
 }
 
-.parte3 .img-celular2 {
+.parte3 .img-celular2 img {
     display: flex;
     justify-content: center;
     align-items: center;
     background: transparent;
-    width: 50vw;
-    height: 660vh;
-    top: 20%;
-    left: 24%;
+    width: 20vw;
+    height: 90vh;
+    top: 315.8%;
+    left: 39.5%;
     position: absolute;
+    border-radius: 40px;
+    box-shadow: 40px 40px 100px 0px rgba(24, 48, 63, 0.5);
 }
 
 .bloco2 span {
@@ -642,7 +644,7 @@ li a {
     background: transparent;
     position: absolute;
     top: 490%;
-    left: 40%;
+    left: 40.5%;
 }
 
 .parte4 h3 {
@@ -832,9 +834,9 @@ li a {
     color: white;
     background: transparent;
     display: flex;
-    width: 15vw;
+    width: 30vw;
     height: 200px;
-    left: 42%;
+    left: 35%;
     align-items: center;
     justify-content: center;
     position: absolute;
@@ -1116,4 +1118,373 @@ li a {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
+
+}
+
+
+.parte-6 h1 {
+    color: #ffffff;
+    background: transparent;
+    display: flex;
+    width: 20vw;
+    height: 200px;
+    left: 40.2%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    font-size: 28px;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+    top: 870%;
+}
+
+.parte-6 h2 {
+    color: #ffffff;
+    background: transparent;
+    display: flex;
+    width: 40vw;
+    height: 55vh;
+    left: 30%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    top: 865%;
+}
+
+.parte-6 .caixa-branca {
+    position: absolute;
+    background: #ffffff;
+    width: 770px;
+    height: 387px;
+    top: 880%;
+    left: 23%;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    box-shadow: 0px 10px 100px 0px rgba(0, 0, 0, 0.24);
+}
+
+.parte-6 .caixa-branca img {
+    border-radius: 50%;
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    top: 14%;
+    left: 45%;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.parte-6 .caixa-branca h1 {
+    color: black;
+    position: absolute;
+    width: 198px;
+    height: 198px;
+    top: 20%;
+    left: 38%;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 47.25px;
+    text-align: left;
+}
+
+.parte-6 .caixa-branca h2 {
+    color: rgba(35, 34, 51, 1);
+    position: absolute;
+    width: 198px;
+    height: 198px;
+    top: 32%;
+    left: 38%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+}
+
+.parte-6 .caixa-branca h3 {
+    color: gray;
+    background: transparent;
+    display: flex;
+    width: 40vw;
+    height: 60vh;
+    left: 3%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.parte-7 {
+    background: #ffffff;
+    top: 980%;
+    height: 170vh;
+    width: 100%;
+    position: absolute;
+}
+
+.parte-7 h1 {
+    background: #ffffff;
+    color: black;
+    position: absolute;
+    width: 40vw;
+    height: 198px;
+    top: 5%;
+    left: 30%;
+    font-size: 31.25px;
+    line-height: 47.25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parte-7 h2 {
+    color: gray;
+    background: transparent;
+    display: flex;
+    width: 40vw;
+    height: 60vh;
+    left: 30%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.parte-7 .bloco-1 {
+    position: absolute;
+    width: 430px;
+    height: 580px;
+    top: 35%;
+    left: 8%;
+    border-radius: 10px 10px 0px 0px;
+    border-width: 0px, 0px, 0px, 0.1px;
+    border-style: solid;
+    border: white;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.parte-7 .bloco-1 img {
+    position: absolute;
+    width: 430px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.parte-7 .bloco-1 h1 {
+    background: transparent;
+    position: absolute;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    top: 42%;
+    left: -40%;
+}
+
+.parte-7 .bloco-1 h2 {
+    background: transparent;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    top: 32%;
+    left: -43%;
+}
+
+.parte-7 .bloco-1 h3 {
+    color: rgba(88, 81, 234, 1);
+    background: transparent;
+    position: absolute;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    top: 88%;
+    left: 5%;
+    text-decoration: underline;
+}
+
+.parte-7 .bloco-2 {
+    position: absolute;
+    width: 430px;
+    height: 580px;
+    top: 35%;
+    left: 38%;
+    border-radius: 10px 10px 0px 0px;
+    border-width: 0px, 0px, 0px, 0.1px;
+    border-style: solid;
+    border: white;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.parte-7 .bloco-2 img {
+    position: absolute;
+    width: 430px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.parte-7 .bloco-2 h1 {
+    background: transparent;
+    position: absolute;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    top: 42%;
+    left: -36%;
+}
+
+.parte-7 .bloco-2 h2 {
+    background: transparent;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    top: 32%;
+    left: -43%;
+}
+
+.parte-7 .bloco-2 h3 {
+    color: rgba(88, 81, 234, 1);
+    background: transparent;
+    position: absolute;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    top: 88%;
+    left: 5%;
+    text-decoration: underline;
+}
+
+.parte-7 .bloco-3 {
+    position: absolute;
+    width: 430px;
+    height: 580px;
+    top: 35%;
+    left: 68%;
+    border-radius: 10px 10px 0px 0px;
+    border-width: 0px, 0px, 0px, 0.1px;
+    border-style: solid;
+    border: white;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.parte-7 .bloco-3 img {
+    position: absolute;
+    height: 33.5vh;
+    width: 430px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.parte-7 .bloco-3 h1 {
+    background: transparent;
+    position: absolute;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    top: 42%;
+    left: -35.5%;
+}
+
+.parte-7 .bloco-3 h2 {
+    background: transparent;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    top: 32%;
+    left: -43%;
+}
+
+.parte-7 .bloco-3 h3 {
+    color: rgba(88, 81, 234, 1);
+    background: transparent;
+    position: absolute;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    top: 88%;
+    left: 5%;
+    text-decoration: underline;
+}
+
+.parte-8 {
+    background: rgba(35, 34, 51, 1);
+    top: 1154%;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.parte-8 .barra-branca {
+    position: absolute;
+    width: 1520px;
+    height: 230px;
+    top: -160px;
+    left: 135px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 30px;
+    border-width: 0px, 0px, 0px, 0.1px;
+    border-style: solid;
+    border: white;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 10px 100px 0px rgba(0, 0, 0, 0.24);
+}
+
+.parte-8 .barra-branca .bola {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 65px;
+    left: 50px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 50%;
+}
+
+.parte-8 .barra-branca .bola span {
+    background: transparent;
+    position: absolute;
+    width: 40vw;
+    height: 40vh;
+    top: 30%;
+    left: 29%;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 45px;
+    color: #ffffff;
+}
+
+.parte-8 .barra-branca h1 {
+    background: transparent;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: left;
+    position: absolute;
+    left: 12%;
 }
