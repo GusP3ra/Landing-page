@@ -67,7 +67,6 @@
     display: flex;
     background: #ffffff;
     gap: 32px;
-
 }
 
 li {
@@ -819,10 +818,10 @@ li a {
 .parte4 .bloco-roxo3 h2 {
     background: transparent;
     color: #ffffff;
-    width: 29.17px;
+    width: 20vw;
     height: 26.25px;
     top: 60%;
-    left: 27%;
+    left: 6%;
     position: absolute;
     font-size: 20px;
     font-weight: 600;
@@ -1091,10 +1090,10 @@ li a {
 
 .parte-5 .bloco-3 h1 {
     position: absolute;
-    width: 198px;
+    width: 20vw;
     height: 198px;
     top: 30%;
-    left: 23%;
+    left: 1%;
 }
 
 .parte-5 .bloco-3 h2 {
@@ -1434,7 +1433,7 @@ li a {
 .parte-8 {
     background: rgba(35, 34, 51, 1);
     top: 1154%;
-    height: 100vh;
+    height: 101vh;
     width: 100%;
     position: absolute;
 }
@@ -1487,4 +1486,288 @@ li a {
     text-align: left;
     position: absolute;
     left: 12%;
+}
+
+.parte-8 .barra-branca .linha {
+    position: absolute;
+    width: 117px;
+    height: 0px;
+    top: 48%;
+    left: 45%;
+    gap: 0px;
+    border: 4px 0px 0px 0px;
+    opacity: 0px;
+    rotate: -90deg;
+    border: 4px solid rgba(108, 108, 114, 1)
+}
+
+.parte-8 .barra-branca .bola-2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 65px;
+    left: 870px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 50%;
+}
+
+.parte-8 .barra-branca .bola-2 span {
+    background: transparent;
+    position: absolute;
+    width: 40vw;
+    height: 40vh;
+    top: 30%;
+    left: 29%;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 45px;
+    color: #ffffff;
+}
+
+.parte-8 .barra-branca h2 {
+    background: transparent;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: left;
+    position: absolute;
+    left: 66%;
+}
+
+.parte-9 h1 {
+    background: transparent;
+    position: absolute;
+    width: 97px;
+    height: 48px;
+    top: 1190%;
+    left: 8.2%;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 47.25px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+.parte-9 h2 {
+    position: absolute;
+    width: 334px;
+    height: 72px;
+    top: 1198%;
+    left: 8.2%;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background: transparent;
+}
+
+.parte-9 h3 {
+    position: absolute;
+    width: 120vw;
+    height: 38px;
+    top: 1190%;
+    left: 38.2%;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background: transparent;
+}
+
+.parte-9 h4 {
+    position: absolute;
+    width: 44px;
+    height: 24px;
+    top: 1196.8%;
+    left: 38.2%;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background: transparent;
+}
+
+.parte-9 h5 {
+    position: absolute;
+    width: 44px;
+    height: 24px;
+    top: 1200.8%;
+    left: 38.2%;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background: transparent;
+}
+
+.parte-9 h6 {
+    position: absolute;
+    width: 44px;
+    height: 24px;
+    top: 1204.8%;
+    left: 38.2%;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background: transparent;
+}
+
+.parte-9 h7 {
+    position: absolute;
+    width: 44px;
+    height: 24px;
+    top: 1214.8%;
+    left: 38.2%;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background: transparent;
+}
+
+.parte-9 h8 {
+    position: absolute;
+    width: 120vw;
+    height: 38px;
+    top: 1193%;
+    left: 68.2%;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background: transparent;
+}
+
+.parte-9 h9 {
+    position: absolute;
+    width: 334px;
+    height: 72px;
+    top: 1199%;
+    left: 68.2%;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background: transparent;
+}
+
+.parte-9 .barra {
+    position: absolute;
+    width: 369px;
+    height: 50px;
+    top: 1211%;
+    left: 68.2%;
+    gap: 0px;
+    border-radius: 4px;
+    opacity: 0px;
+    background: #ffffff;
+}
+
+.parte-9 .barra h1 {
+    position: absolute;
+    width: 138px;
+    height: 24px;
+    top: 4%;
+    left: 10%;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(108, 108, 114, 1);
+    background: transparent;
+}
+
+.parte-9 .barra .bloco {
+    position: absolute;
+    width: 52px;
+    height: 46px;
+    top: 4%;
+    left: 85.5%;
+    gap: 0px;
+    border-radius: 4px;
+    opacity: 0px;
+    background: rgba(89, 86, 233, 1);
+}
+
+.parte-9 .barra .bloco span {
+    position: absolute;
+    width: 19.46px;
+    height: 21.31px;
+    top: 22%;
+    left: 27%;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 25px;
+}
+
+.parte-9 .linha {
+    position: absolute;
+    width: 1468px;
+    height: 0px;
+    top: 1250%;
+    left: 135px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 1)
+}
+
+.parte-9 .linha span {
+    position: absolute;
+    top: 20px;
+    left: 40%;
+    width: 24px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(255, 255, 255, 1);
+    background: transparent;
+}
+
+.parte-9 .linha h1 {
+    position: absolute;
+    width: 336px;
+    height: 24px;
+    top: 9px;
+    left: 43%;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background: transparent;
 }
